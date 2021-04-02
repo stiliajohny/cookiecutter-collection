@@ -16,7 +16,7 @@
   <h3 align="center">Molecule Cookiecutter Template</h3>
 
   <p align="center">
-    This is  a template to be used with cookiecuter to create a molecle role
+    This is  a template to be used with cookiecuter to create a molecule role
     <br />
     <a href="./README.md"><strong>Explore the docs »</strong></a>
     <br />
