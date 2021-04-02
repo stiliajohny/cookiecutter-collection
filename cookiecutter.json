@@ -1,0 +1,10 @@
+{
+    "role_name": "role_name",
+    "author": "your name",
+    "author_email": "your email"
+    "description": "role description",
+    "add_travis_config": "n",
+    "add_Gitlab_CI_config": "n",
+    "license": ["GPLv3"],
+    "minimum_ansible_version" : " 2.9"
+}

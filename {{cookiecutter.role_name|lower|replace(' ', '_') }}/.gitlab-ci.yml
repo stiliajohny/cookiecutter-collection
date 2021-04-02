@@ -1,0 +1,30 @@
+---
+
+stages:
+  - test
+
+variables:
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.pip"
+
+cache:
+  paths:
+    - .pip/
+    - virtenv/
+
+before_script:
+  - virtualenv-3 virtenv
+  - source virtenv/bin/activate
+  # fix ansible and molecule versions to workaround
+  # https://github.com/ansible/molecule/issues/2083
+  - pip install molecule==2.19 ansible==2.7.11 docker
+
+molecule:
+  stage: test
+  script:
+    - docker -v
+    - python -V
+    - ansible --version
+    - molecule --version
+    - molecule test
+  tags:
+    - ansible-ci

@@ -13,13 +13,16 @@
     <img src=".assets/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Molecule Cookiecutter Template</h3>
+  <h3 align="center">{{cookiecutter.role_name|lower|replace(' ', '_') }}</h3>
 
   <p align="center">
-    This is  a template to be used with cookiecuter to create a molecle role
+    {{ cookiecutter.description}}
     <br />
     <a href="./README.md"><strong>Explore the docs »</strong></a>
     <br />
+    <br />
+    <a href="https://github.com/stiliajohny/Repo-Template">View Demo</a>
+    ·
     <a href="https://github.com/stiliajohny/Repo-Template/issues/new?labels=i%3A+bug&template=1-bug-report.md">Report Bug</a>
     ·
     <a href="https://github.com/stiliajohny/Repo-Template/issues/new?labels=i%3A+enhancement&template=2-feature-request.md">Request Feature</a>
@@ -37,12 +40,6 @@
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Usage](#usage)
-  - [To initialize the role with cookiecuter](#to-initialize-the-role-with-cookiecuter)
-  - [To initialize the role with molecule](#to-initialize-the-role-with-molecule)
-  - [To test the default scenario docker](#to-test-the-default-scenario-docker)
-  - [To test the scenario with vagrant](#to-test-the-scenario-with-vagrant)
-- [What this template provides?](#what-this-template-provides)
-- [Directory structure](#directory-structure)
 - [Roadmap](#roadmap)
 - [Contributing](#contributing)
 - [License](#license)
@@ -53,7 +50,7 @@
 
 ## About The Project
 
-[![Molecule CookieCutter Template][product-screenshot]](./.assets/screenshot.png)
+[![Product Name Screen Shot][product-screenshot]](./.assets/screenshot.png)
 
 <!--
 There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need.
@@ -71,13 +68,13 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 
 ### Built With
 
-- Cookiecutter
--  Molecule
--  Python
--  YAML
--  Ansible
--  JSON
--  Docker
+<!--
+This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+
+- [Bootstrap](https://getbootstrap.com)
+- [JQuery](https://jquery.com)
+- [Laravel](https://laravel.com)
+-->
 
 ---
 
@@ -92,89 +89,51 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
--  cookiecutter
--  pre-commit
--   molecule-vagrant
--   molecule-docker
--  Vagrant
--  Docker
+<!--
+
+This is an example of how to list things you need to use the software and how to install them.
+
+- npm
+
+```sh
+npm install npm@latest -g
+```
+-->
 
 ### Installation
 
-Install them doing `pip install cookiecutter pre-commit molecule-vagrant molecule-docker`
+<!--
+1. Get a free API Key at [https://example.com](https://example.com)
+2. Clone the repo
+
+```sh
+git clone https://github.com/your_username_/Project-Name.git
+```
+
+3. Install NPM packages
+
+```sh
+npm install
+```
+
+4. Enter your API in `config.js`
+
+```JS
+const API_KEY = 'ENTER YOUR API';
+```
+-->
 
 ---
 
+<!-- USAGE EXAMPLES -->
 
 ## Usage
 
-### To initialize the role with cookiecuter
+<!--
+Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-`$ pip install cookiecutter pre-commit`
-
-`$ cookiecutter gh:cat-oid/ansible-molecule-cookiecutter`
-
-
-### To initialize the role with molecule
-
-
-`$ pip install molecule pre-commit`
-
-`$ molecule init template --url https://github.com/cat-oid/ansible-molecule-cookiecutter`
-
-### To test the default scenario docker
-
-`$ molecule test`
-
-### To test the scenario with vagrant
-`$ molecule test -s vagrant`
-
----
-## What this template provides?
-
-* Initialize a new git repo in the local machine
-* Add [.yamllint](https://github.com/adrienverge/yamllint) config file (used by molecule)
-* Add .pre-commit-config.yaml used by [pre-commit](http://pre-commit.com/)
-* Add .gitignore with common files I don't want to track in git
-* Add configuration for [Molecule](http://molecule.readthedocs.io) in the "molecule" folder
-  * default molecule scenario runs on docker
-  * There is another molecule scenario using Vagrant
-  * The vagrant scenario requires `pip install molecule-vagrant`
-* Add a travis or Gitlab-CI config file (Optional. By default it's not added)
-* Populates, variables, tasks, handlers on demand
-* Checks role name validity
-
----
-
-## Directory structure
-```
-ansible-role-example/
-├── defaults
-│   └── main.yml
-├── .gitignore
-├── handlers
-│   └── main.yml
-├── meta
-│   └── main.yml
-├── molecule
-│   ├── default
-│   │   ├── converge.yml
-│   │   ├── INSTALL.rst
-│   │   ├── molecule.yml
-│   │   └── verify.yml
-│   └── vagrant
-│       ├── converge.yml
-│       ├── INSTALL.rst
-│       ├── molecule.yml
-│       └── verify.yml
-├── .pre-commit-config.yaml
-├── README.md
-├── tasks
-│   └── main.yml
-├── vars
-│   └── main.yml
-└── .yamllint
-```
+_For more examples, please refer to the [Documentation](https://example.com)_
+-->
 
 ---
 
@@ -210,10 +169,11 @@ Distributed under the GPL-3.0 License. See `LICENSE` for more information.
 
 ## Contact
 
-John Stilia - [@john_stilia](https://twitter.com/john_stilia) - stilia.johny@gmail.com
+{{ cookiecutter.author }} - {{ cookiecutter.author_email }}
 
 
 ---
+
 <!-- ACKNOWLEDGEMENTS -->
 
 ## Acknowledgements

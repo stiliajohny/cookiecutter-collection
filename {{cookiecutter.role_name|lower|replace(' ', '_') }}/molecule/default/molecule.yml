@@ -1,0 +1,39 @@
+---
+
+dependency:
+  name: galaxy
+driver:
+  name: docker
+lint: |
+  yamllint .
+  ansible-lint
+platforms:
+  - name: "molecule-ubuntu1804"
+    image: "geerlingguy/docker-ubuntu1804-ansible"
+    command: ""
+    # volumes:
+    #   - /sys/fs/cgroup:/sys/fs/cgroup:ro
+    privileged: true
+    pre_build_image: true
+  - name: "molecule-centos7"
+    image: "geerlingguy/docker-centos7-ansible"
+    command: ""
+    # volumes:
+    #   - /sys/fs/cgroup:/sys/fs/cgroup:ro
+    privileged: true
+    pre_build_image: true
+  - name: "Archlinux"
+    image: "archlinux"
+    command: ""
+    # volumes:
+    #   - /sys/fs/cgroup:/sys/fs/cgroup:ro
+    privileged: true
+    pre_build_image: true
+provisioner:
+  name: ansible
+  playbooks:
+    converge: converge.yml
+  # options:
+  #   become: true
+verifier:
+  name: ansible
