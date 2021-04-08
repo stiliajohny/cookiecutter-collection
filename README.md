@@ -112,7 +112,7 @@ Install them doing `pip install cookiecutter pre-commit molecule-vagrant molecul
 
 `$ pip install cookiecutter pre-commit`
 
-`$ cookiecutter gh:cat-oid/ansible-molecule-cookiecutter`
+`$ cookiecutter gh:stiliajohny/ansible-molecule-cookiecutter`
 
 
 ### To initialize the role with molecule
@@ -120,7 +120,7 @@ Install them doing `pip install cookiecutter pre-commit molecule-vagrant molecul
 
 `$ pip install molecule pre-commit`
 
-`$ molecule init template --url https://github.com/cat-oid/ansible-molecule-cookiecutter`
+`$ molecule init template --url https://github.com/stiliajohny/ansible-molecule-cookiecutter`
 
 ### To test the default scenario docker
 
