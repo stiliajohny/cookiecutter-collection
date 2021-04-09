@@ -9,7 +9,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/stiliajohny/Repo-Template">
+  <a href="https://github.com/stiliajohny/{{cookiecutter.role_name|lower|replace(' ', '_') }}">
     <img src=".assets/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -21,11 +21,11 @@
     <a href="./README.md"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/stiliajohny/Repo-Template">View Demo</a>
+    <a href="https://github.com/stiliajohny/{{cookiecutter.role_name|lower|replace(' ', '_') }}">View Demo</a>
     ·
-    <a href="https://github.com/stiliajohny/Repo-Template/issues/new?labels=i%3A+bug&template=1-bug-report.md">Report Bug</a>
+    <a href="https://github.com/stiliajohny/{{cookiecutter.role_name|lower|replace(' ', '_') }}/issues/new?labels=i%3A+bug&template=1-bug-report.md">Report Bug</a>
     ·
-    <a href="https://github.com/stiliajohny/Repo-Template/issues/new?labels=i%3A+enhancement&template=2-feature-request.md">Request Feature</a>
+    <a href="https://github.com/stiliajohny/{{cookiecutter.role_name|lower|replace(' ', '_') }}/issues/new?labels=i%3A+enhancement&template=2-feature-request.md">Request Feature</a>
   </p>
 </p>
 
@@ -141,7 +141,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 ## Roadmap
 
-See the [open issues](https://github.com/stiliajohny/Repo-Template/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/stiliajohny/{{cookiecutter.role_name|lower|replace(' ', '_') }}/issues) for a list of proposed features (and known issues).
 
 ---
 
@@ -186,16 +186,16 @@ Distributed under the GPL-3.0 License. See `LICENSE` for more information.
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/stiliajohny/Repo-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/stiliajohny/Repo-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/stiliajohny/Repo-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/stiliajohny/Repo-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/stiliajohny/Repo-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/stiliajohny/Repo-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/stiliajohny/Repo-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/stiliajohny/Repo-Template/issues
-[license-shield]: https://img.shields.io/github/license/stiliajohny/Repo-Template?style=for-the-badge
-[license-url]: https://github.com/stiliajohny/Repo-Template/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/stiliajohny/{{cookiecutter.role_name|lower|replace(' ', '_') }}.svg?style=for-the-badge
+[contributors-url]: https://github.com/stiliajohny/{{cookiecutter.role_name|lower|replace(' ', '_') }}/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/stiliajohny/{{cookiecutter.role_name|lower|replace(' ', '_') }}.svg?style=for-the-badge
+[forks-url]: https://github.com/stiliajohny/{{cookiecutter.role_name|lower|replace(' ', '_') }}/network/members
+[stars-shield]: https://img.shields.io/github/stars/stiliajohny/{{cookiecutter.role_name|lower|replace(' ', '_') }}.svg?style=for-the-badge
+[stars-url]: https://github.com/stiliajohny/{{cookiecutter.role_name|lower|replace(' ', '_') }}/stargazers
+[issues-shield]: https://img.shields.io/github/issues/stiliajohny/{{cookiecutter.role_name|lower|replace(' ', '_') }}.svg?style=for-the-badge
+[issues-url]: https://github.com/stiliajohny/{{cookiecutter.role_name|lower|replace(' ', '_') }}/issues
+[license-shield]: https://img.shields.io/github/license/stiliajohny/{{cookiecutter.role_name|lower|replace(' ', '_') }}?style=for-the-badge
+[license-url]: https://github.com/stiliajohny/{{cookiecutter.role_name|lower|replace(' ', '_') }}/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/johnstilia/
 [product-screenshot]: .assets/screenshot.png
@@ -203,4 +203,4 @@ Distributed under the GPL-3.0 License. See `LICENSE` for more information.
 [personal-page]: https://github.com/stiliajohny
 
 https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-https://img.shields.io/github/license/stiliajohny/Repo-Template.svg?style=for-the-badge
+https://img.shields.io/github/license/stiliajohny/{{cookiecutter.role_name|lower|replace(' ', '_') }}.svg?style=for-the-badge

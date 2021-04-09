@@ -9,7 +9,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/stiliajohny/Repo-Template">
+  <a href="https://github.com/stiliajohny/ansible-molecule-cookiecutter">
     <img src=".assets/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -20,9 +20,9 @@
     <br />
     <a href="./README.md"><strong>Explore the docs »</strong></a>
     <br />
-    <a href="https://github.com/stiliajohny/Repo-Template/issues/new?labels=i%3A+bug&template=1-bug-report.md">Report Bug</a>
+    <a href="https://github.com/stiliajohny/ansible-molecule-cookiecutter/issues/new?labels=i%3A+bug&template=1-bug-report.md">Report Bug</a>
     ·
-    <a href="https://github.com/stiliajohny/Repo-Template/issues/new?labels=i%3A+enhancement&template=2-feature-request.md">Request Feature</a>
+    <a href="https://github.com/stiliajohny/ansible-molecule-cookiecutter/issues/new?labels=i%3A+enhancement&template=2-feature-request.md">Request Feature</a>
   </p>
 </p>
 
@@ -53,21 +53,6 @@
 
 ## About The Project
 
-[![Molecule CookieCutter Template][product-screenshot]](./.assets/screenshot.png)
-
-<!--
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need.
-
-Here's why:
-
-- Your time should be focused on creating something amazing. A project that solves a problem and helps others
-- You shouldn't be doing the same tasks over and over like creating a README from scratch
-- You should element DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue.
-
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
--->
 
 ### Built With
 
@@ -81,14 +66,9 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 
 ---
 
-<!-- GETTING STARTED -->
 
 ## Getting Started
 
-<!--
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
--->
 
 ### Prerequisites
 
@@ -182,11 +162,10 @@ ansible-role-example/
 
 ## Roadmap
 
-See the [open issues](https://github.com/stiliajohny/Repo-Template/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/stiliajohny/ansible-molecule-cookiecutter/issues) for a list of proposed features (and known issues).
 
 ---
 
-<!-- CONTRIBUTING -->
 
 ## Contributing
 
@@ -226,16 +205,16 @@ John Stilia - [@john_stilia](https://twitter.com/john_stilia) - stilia.johny@gma
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/stiliajohny/Repo-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/stiliajohny/Repo-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/stiliajohny/Repo-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/stiliajohny/Repo-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/stiliajohny/Repo-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/stiliajohny/Repo-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/stiliajohny/Repo-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/stiliajohny/Repo-Template/issues
-[license-shield]: https://img.shields.io/github/license/stiliajohny/Repo-Template?style=for-the-badge
-[license-url]: https://github.com/stiliajohny/Repo-Template/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/stiliajohny/ansible-molecule-cookiecutter.svg?style=for-the-badge
+[contributors-url]: https://github.com/stiliajohny/ansible-molecule-cookiecutter/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/stiliajohny/ansible-molecule-cookiecutter.svg?style=for-the-badge
+[forks-url]: https://github.com/stiliajohny/ansible-molecule-cookiecutter/network/members
+[stars-shield]: https://img.shields.io/github/stars/stiliajohny/ansible-molecule-cookiecutter.svg?style=for-the-badge
+[stars-url]: https://github.com/stiliajohny/ansible-molecule-cookiecutter/stargazers
+[issues-shield]: https://img.shields.io/github/issues/stiliajohny/ansible-molecule-cookiecutter.svg?style=for-the-badge
+[issues-url]: https://github.com/stiliajohny/ansible-molecule-cookiecutter/issues
+[license-shield]: https://img.shields.io/github/license/stiliajohny/ansible-molecule-cookiecutter?style=for-the-badge
+[license-url]: https://github.com/stiliajohny/ansible-molecule-cookiecutter/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/johnstilia/
 [product-screenshot]: .assets/screenshot.png
@@ -243,4 +222,4 @@ John Stilia - [@john_stilia](https://twitter.com/john_stilia) - stilia.johny@gma
 [personal-page]: https://github.com/stiliajohny
 
 https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-https://img.shields.io/github/license/stiliajohny/Repo-Template.svg?style=for-the-badge
+https://img.shields.io/github/license/stiliajohny/ansible-molecule-cookiecutter.svg?style=for-the-badge
