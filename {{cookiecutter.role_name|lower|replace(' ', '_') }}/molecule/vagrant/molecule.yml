@@ -8,15 +8,15 @@ lint: |
   yamllint .
   ansible-lint
 platforms:
-  - name: molecule-vagrant-centos7-bento-{{cookiecutter.role_name|lower|replace(' ', '_') }}
+  - name: molecule-vagrant-centos7-bento
     box: bento/centos-7
     memory: 512
     cpus: 1
-  - name: molecule-vagrant-ubuntu-18.04-bento-{{cookiecutter.role_name|lower|replace(' ', '_') }}
+  - name: molecule-vagrant-ubuntu-18.04
     box: bento/ubuntu-18.04
     memory: 512
     cpus: 1
-  - name: molecule-vagrant-archlinux-{{cookiecutter.role_name|lower|replace(' ', '_') }}
+  - name: molecule-vagrant-archlinux
     box: archlinux/archlinux
     memory: 512
     cpus: 1
