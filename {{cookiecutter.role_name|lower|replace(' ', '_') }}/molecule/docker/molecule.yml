@@ -8,21 +8,21 @@ lint: |
   yamllint .
   ansible-lint
 platforms:
-  - name: "molecule-ubuntu1804"
+  - name: "molecule-ubuntu1804-{{cookiecutter.role_name|lower|replace(' ', '_') }}"
     image: "geerlingguy/docker-ubuntu1804-ansible"
     command: ""
     # volumes:
     #   - /sys/fs/cgroup:/sys/fs/cgroup:ro
     privileged: true
     pre_build_image: true
-  - name: "molecule-centos7"
+  - name: "molecule-centos7-{{cookiecutter.role_name|lower|replace(' ', '_') }}"
     image: "geerlingguy/docker-centos7-ansible"
     command: ""
     # volumes:
     #   - /sys/fs/cgroup:/sys/fs/cgroup:ro
     privileged: true
     pre_build_image: true
-  - name: "Archlinux"
+  - name: "Archlinux-{{cookiecutter.role_name|lower|replace(' ', '_') }} "
     image: "archlinux"
     command: ""
     # volumes:
