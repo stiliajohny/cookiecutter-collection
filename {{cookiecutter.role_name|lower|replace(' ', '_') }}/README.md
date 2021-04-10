@@ -201,6 +201,3 @@ Distributed under the GPL-3.0 License. See `LICENSE` for more information.
 [product-screenshot]: .assets/screenshot.png
 [ask-me-anything]: https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg?style=for-the-badge
 [personal-page]: https://github.com/stiliajohny
-
-https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-https://img.shields.io/github/license/stiliajohny/{{cookiecutter.role_name|lower|replace(' ', '_') }}.svg?style=for-the-badge
