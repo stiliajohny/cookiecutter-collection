@@ -221,5 +221,3 @@ John Stilia - [@john_stilia](https://twitter.com/john_stilia) - stilia.johny@gma
 [ask-me-anything]: https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg?style=for-the-badge
 [personal-page]: https://github.com/stiliajohny
 
-https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-https://img.shields.io/github/license/stiliajohny/ansible-molecule-cookiecutter.svg?style=for-the-badge
