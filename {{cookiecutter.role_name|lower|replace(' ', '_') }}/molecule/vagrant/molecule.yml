@@ -20,7 +20,7 @@ platforms:
     box: archlinux/archlinux
     memory: 512
     cpus: 1
-  - name: molecule-vagrant-archlinux
+  - name: molecule-vagrant-kalilinux
     box: kalilinux/rolling
     memory: 512
     cpus: 1
