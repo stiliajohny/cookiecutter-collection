@@ -10,7 +10,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/stiliajohny/{{cookiecutter.role_name|lower|replace(' ', '_') }}">
-    <img src=".assets/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://github.com/stiliajohny/{{cookiecutter.role_name|lower|replace(' ', '_') }}/.assets/logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">{{cookiecutter.role_name|lower|replace(' ', '_') }}</h3>
@@ -18,7 +18,7 @@
   <p align="center">
     {{ cookiecutter.description}}
     <br />
-    <a href="./README.md"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/stiliajohny/{{cookiecutter.role_name|lower|replace(' ', '_') }}/README.md"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/stiliajohny/{{cookiecutter.role_name|lower|replace(' ', '_') }}">View Demo</a>
@@ -50,7 +50,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](./.assets/screenshot.png)
+[![Product Name Screen Shot][product-screenshot]](https://github.com/stiliajohny/{{cookiecutter.role_name|lower|replace(' ', '_') }}/raw/main/.assets/screenshot.png)
 
 <!--
 There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need.
@@ -141,7 +141,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 ## Roadmap
 
-See the [open issues](https://github.com/stiliajohny/{{cookiecutter.role_name|lower|replace(' ', '_') }}/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/stiliajohny/{{cookiecutter.role_name|lower|replace(' ', '_') }}/raw/main/issues) for a list of proposed features (and known issues).
 
 ---
 

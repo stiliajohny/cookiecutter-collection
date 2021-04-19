@@ -6,11 +6,13 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 [![Ask Me Anything][ask-me-anything]][personal-page]
 
+
+
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
   <a href="https://github.com/stiliajohny/ansible-molecule-cookiecutter">
-    <img src=".assets/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://github.com/stiliajohny/ansible-molecule-cookiecutter/raw/main/.assets/logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Molecule Cookiecutter Template</h3>
@@ -18,7 +20,7 @@
   <p align="center">
     This is  a template to be used with cookiecuter to create a molecule role
     <br />
-    <a href="./README.md"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/stiliajohny/ansible-molecule-cookiecutter/raw/main//README.md"><strong>Explore the docs »</strong></a>
     <br />
     <a href="https://github.com/stiliajohny/ansible-molecule-cookiecutter/issues/new?labels=i%3A+bug&template=1-bug-report.md">Report Bug</a>
     ·
