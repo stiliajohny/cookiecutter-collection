@@ -43,10 +43,9 @@
 ## About The Project
 Check in the individual folders to use the cookiecutter of your choice
 
-- <a href="./ansible">./ansible</a> - Enjoy a enhanced cookiecutter ansible-molecule template.
+- <a href="./ansible">./ansible</a> - Enjoy an enhanced cookiecutter for ansible-molecule.
 
 ---
-
 
 ## Roadmap
 
@@ -67,13 +66,11 @@ Contributions are what make the open source community such an amazing place to b
 
 ---
 
-<!-- LICENSE -->
 
 ## License
 
 Distributed under the GPL-3.0 License. See `LICENSE` for more information.
 
-<!-- CONTACT -->
 
 ## Contact
 
