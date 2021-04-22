@@ -1,4 +1,4 @@
-[![Contributors][contributors-shield]][contributors-url]
+>[![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
@@ -11,7 +11,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/stiliajohny/ansible-molecule-cookiecutter">
+  <a href="https://github.com/stiliajohny/my-cookiecutters">
     <img src="https://github.com/stiliajohny/my-cookiecutters/raw/main/.assets/cookiecutter-logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -20,9 +20,9 @@
   <p align="center">
     Straight from the oven, Cookies made with your favorite cookiecutter
     <br />
-    <a href="https://github.com/stiliajohny/ansible-molecule-cookiecutter/issues/new?labels=i%3A+bug&template=1-bug-report.md">Report Bug</a>
+    <a href="https://github.com/stiliajohny/my-cookiecutters/issues/new?labels=i%3A+bug&template=1-bug-report.md">Report Bug</a>
     ·
-    <a href="https://github.com/stiliajohny/ansible-molecule-cookiecutter/issues/new?labels=i%3A+enhancement&template=2-feature-request.md">Request Feature</a>
+    <a href="https://github.com/stiliajohny/my-cookiecutters/issues/new?labels=i%3A+enhancement&template=2-feature-request.md">Request Feature</a>
   </p>
 </p>
 
@@ -43,12 +43,14 @@
 ## About The Project
 Check in the individual folders to use the cookiecutter of your choice
 
+- <a href="./ansible">./ansible</a> - Enjoy a enhanced cookiecutter ansible-molecule template.
+
 ---
 
 
 ## Roadmap
 
-See the [open issues](https://github.com/stiliajohny/ansible-molecule-cookiecutter/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/stiliajohny/my-cookiecutters/issues) for a list of proposed features (and known issues).
 
 ---
 
@@ -91,16 +93,16 @@ John Stilia - [@john_stilia](https://twitter.com/john_stilia) - stilia.johny@gma
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/stiliajohny/ansible-molecule-cookiecutter.svg?style=for-the-badge
-[contributors-url]: https://github.com/stiliajohny/ansible-molecule-cookiecutter/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/stiliajohny/ansible-molecule-cookiecutter.svg?style=for-the-badge
-[forks-url]: https://github.com/stiliajohny/ansible-molecule-cookiecutter/network/members
-[stars-shield]: https://img.shields.io/github/stars/stiliajohny/ansible-molecule-cookiecutter.svg?style=for-the-badge
-[stars-url]: https://github.com/stiliajohny/ansible-molecule-cookiecutter/stargazers
-[issues-shield]: https://img.shields.io/github/issues/stiliajohny/ansible-molecule-cookiecutter.svg?style=for-the-badge
-[issues-url]: https://github.com/stiliajohny/ansible-molecule-cookiecutter/issues
-[license-shield]: https://img.shields.io/github/license/stiliajohny/ansible-molecule-cookiecutter?style=for-the-badge
-[license-url]: https://github.com/stiliajohny/ansible-molecule-cookiecutter/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/stiliajohny/my-cookiecutters.svg?style=for-the-badge
+[contributors-url]: https://github.com/stiliajohny/my-cookiecutters/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/stiliajohny/my-cookiecutters.svg?style=for-the-badge
+[forks-url]: https://github.com/stiliajohny/my-cookiecutters/network/members
+[stars-shield]: https://img.shields.io/github/stars/stiliajohny/my-cookiecutters.svg?style=for-the-badge
+[stars-url]: https://github.com/stiliajohny/my-cookiecutters/stargazers
+[issues-shield]: https://img.shields.io/github/issues/stiliajohny/my-cookiecutters.svg?style=for-the-badge
+[issues-url]: https://github.com/stiliajohny/my-cookiecutters/issues
+[license-shield]: https://img.shields.io/github/license/stiliajohny/my-cookiecutters?style=for-the-badge
+[license-url]: https://github.com/stiliajohny/my-cookiecutters/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/johnstilia/
 [product-screenshot]: .assets/screenshot.png
