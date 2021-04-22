@@ -12,13 +12,15 @@
 <br />
 <p align="center">
   <a href="https://github.com/stiliajohny/ansible-molecule-cookiecutter">
-    <img src="https://github.com/stiliajohny/my-cookiecutters/raw/main/.assets/cookiecutter-logo.png" alt="Logo" width="80" height="80">
+    <img src="https://github.com/stiliajohny/ansible-molecule-cookiecutter/raw/main/.assets/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Cookiecutter Templates</h3>
+  <h3 align="center">Molecule Cookiecutter Template</h3>
 
   <p align="center">
-    Straight from the oven, Cookies made with your favorite cookiecutter
+    This is  a template to be used with cookiecuter to create a molecule role
+    <br />
+    <a href="https://github.com/stiliajohny/ansible-molecule-cookiecutter/raw/main//README.md"><strong>Explore the docs »</strong></a>
     <br />
     <a href="https://github.com/stiliajohny/ansible-molecule-cookiecutter/issues/new?labels=i%3A+bug&template=1-bug-report.md">Report Bug</a>
     ·
@@ -32,6 +34,17 @@
 
 - [Table of Contents](#table-of-contents)
 - [About The Project](#about-the-project)
+  - [Built With](#built-with)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+  - [To initialize the role with cookiecuter](#to-initialize-the-role-with-cookiecuter)
+  - [To initialize the role with molecule](#to-initialize-the-role-with-molecule)
+  - [To test the default scenario docker](#to-test-the-default-scenario-docker)
+  - [To test the scenario with vagrant](#to-test-the-scenario-with-vagrant)
+- [What this template provides?](#what-this-template-provides)
+- [Directory structure](#directory-structure)
 - [Roadmap](#roadmap)
 - [Contributing](#contributing)
 - [License](#license)
@@ -41,10 +54,113 @@
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
-Check in the individual folders to use the cookiecutter of your choice
+
+
+### Built With
+
+- Cookiecutter
+-  Molecule
+-  Python
+-  YAML
+-  Ansible
+-  JSON
+-  Docker
 
 ---
 
+
+## Getting Started
+
+
+### Prerequisites
+
+-  cookiecutter
+-  pre-commit
+-   molecule-vagrant
+-   molecule-docker
+-  Vagrant
+-  Docker
+
+### Installation
+
+Install them doing `pip install cookiecutter pre-commit molecule-vagrant molecule-docker`
+
+---
+
+
+## Usage
+
+### To initialize the role with cookiecuter
+
+`$ pip install cookiecutter pre-commit`
+
+`$ cookiecutter gh:stiliajohny/ansible-molecule-cookiecutter`
+
+
+### To initialize the role with molecule
+
+
+`$ pip install molecule pre-commit`
+
+`$ molecule init template --url https://github.com/stiliajohny/ansible-molecule-cookiecutter`
+
+### To test the default scenario docker
+
+`$ molecule test`
+
+### To test the scenario with vagrant
+`$ molecule test -s vagrant`
+
+---
+## What this template provides?
+
+* Initialize a new git repo in the local machine
+* Add [.yamllint](https://github.com/adrienverge/yamllint) config file (used by molecule)
+* Add .pre-commit-config.yaml used by [pre-commit](http://pre-commit.com/)
+* Add .gitignore with common files I don't want to track in git
+* Add configuration for [Molecule](http://molecule.readthedocs.io) in the "molecule" folder
+  * default molecule scenario runs on docker
+  * There is another molecule scenario using Vagrant
+  * The vagrant scenario requires `pip install molecule-vagrant`
+* Add a travis or Gitlab-CI config file (Optional. By default it's not added)
+* Populates, variables, tasks, handlers on demand
+* Checks role name validity
+
+---
+
+## Directory structure
+```
+ansible-role-example/
+├── defaults
+│   └── main.yml
+├── .gitignore
+├── handlers
+│   └── main.yml
+├── meta
+│   └── main.yml
+├── molecule
+│   ├── default
+│   │   ├── converge.yml
+│   │   ├── INSTALL.rst
+│   │   ├── molecule.yml
+│   │   └── verify.yml
+│   └── vagrant
+│       ├── converge.yml
+│       ├── INSTALL.rst
+│       ├── molecule.yml
+│       └── verify.yml
+├── .pre-commit-config.yaml
+├── README.md
+├── tasks
+│   └── main.yml
+├── vars
+│   └── main.yml
+└── .yamllint
+```
+
+---
+
+<!-- ROADMAP -->
 
 ## Roadmap
 
