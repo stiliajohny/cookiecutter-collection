@@ -40,7 +40,6 @@
   - [Installation](#installation)
 - [Usage](#usage)
   - [To initialize the role with cookiecuter](#to-initialize-the-role-with-cookiecuter)
-  - [To initialize the role with molecule](#to-initialize-the-role-with-molecule)
   - [To test the default scenario docker](#to-test-the-default-scenario-docker)
   - [To test the scenario with vagrant](#to-test-the-scenario-with-vagrant)
 - [What this template provides?](#what-this-template-provides)
@@ -83,7 +82,13 @@
 
 ### Installation
 
-Install them doing `pip install cookiecutter pre-commit molecule-vagrant molecule-docker`
+-  cookiecutter ==> `$ pip3 install cookiecutter`
+-  pre-commit ==> `$ pip3 install pre-commit`
+-  molecule ==> `$ pip3 install  molecule`
+-   molecule-vagrant ==> `$ pip3 install  molecule-vagrant python-vagrant`
+-   molecule-docker ==> `$ pip3 install  molecule-docker`
+-  Vagrant ==> [Official Documentation](https://www.vagrantup.com/docs/installation)
+-  Docker ==> [Official Documentation](https://docs.docker.com/get-docker/)
 
 ---
 
@@ -92,17 +97,9 @@ Install them doing `pip install cookiecutter pre-commit molecule-vagrant molecul
 
 ### To initialize the role with cookiecuter
 
-`$ pip install cookiecutter pre-commit`
-
-`$ cookiecutter gh:stiliajohny/ansible-molecule-cookiecutter`
+`$ cookiecutter gh:stiliajohny/ansible-molecule-cookiecutter --directory="ansible"`
 
 
-### To initialize the role with molecule
-
-
-`$ pip install molecule pre-commit`
-
-`$ molecule init template --url https://github.com/stiliajohny/ansible-molecule-cookiecutter`
 
 ### To test the default scenario docker
 
@@ -140,6 +137,11 @@ ansible-role-example/
 │   └── main.yml
 ├── molecule
 │   ├── default
+│   │   ├── converge.yml
+│   │   ├── INSTALL.rst
+│   │   ├── molecule.yml
+│   │   └── verify.yml
+│   ├── docker
 │   │   ├── converge.yml
 │   │   ├── INSTALL.rst
 │   │   ├── molecule.yml
