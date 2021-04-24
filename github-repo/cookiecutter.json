@@ -1,0 +1,9 @@
+{
+    "repo_name": "repo name",
+    "git_user": "johnsmith",
+    "full_name": "John Smith",
+    "git_user_email": "email@domain.com",
+    "description": "Some info about this repo",
+    "license": ["GPLv3"],
+    "linkedin":"username"
+}
