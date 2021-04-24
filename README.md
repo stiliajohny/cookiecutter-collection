@@ -44,6 +44,7 @@
 Check in the individual folders to use the cookiecutter of your choice
 
 - <a href="./ansible">./ansible</a> - Enjoy an enhanced cookiecutter for ansible-molecule.
+- <a href="./github-repo">./github-repo</a> - Quick and easy way to bring up a repo with consistant documentation.
 
 ---
 
