@@ -1,1 +1,3 @@
-theme: jekyll-theme-hacker
+ogo: https://github.com/stiliajohny/cookiecutter-collection/raw/main/.assets/page_logo.png
+show_downloads: true
+theme: jekyll-theme-minimal
