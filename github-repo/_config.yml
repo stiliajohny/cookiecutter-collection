@@ -1,3 +1,3 @@
-logo: https://github.com/{{ cookiecutter,github_user}}/{{cookiecutter.role_name|lower|replace(' ', '_') }}/raw/main/.assets/page_logo.png
+logo: https://github.com/stiliajohny/cookiecutter-collection/raw/main/github-repo/.assets/github-logo.png
 show_downloads: true
 theme: jekyll-theme-minimal
