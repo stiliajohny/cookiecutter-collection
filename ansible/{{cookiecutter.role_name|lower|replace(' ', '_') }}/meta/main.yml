@@ -35,7 +35,7 @@ galaxy_info:
       versions:
         14.04
 
-  categories:
+  galaxy_tags:
     #- cloud
     #- cloud:ec2
     #- cloud:gce
