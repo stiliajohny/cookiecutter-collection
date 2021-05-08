@@ -1,7 +1,8 @@
 {
     "role_name": "role_name",
-    "author": "your name",
-    "author_email": "your email",
+    "author": "John Stilia",
+    "author_email": "stilia.johny@gmail.com",
+    "github_user": "stilijohny",
     "description": "role description",
     "add_travis_config": "n",
     "add_Gitlab_CI_config": "n",
