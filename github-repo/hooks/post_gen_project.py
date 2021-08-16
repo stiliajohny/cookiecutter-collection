@@ -36,7 +36,6 @@ def configure_repo():
 
     subprocess_cmd('git init')
     subprocess_cmd('git add .')
-    subprocess_cmd('pre-commit install')
     subprocess_cmd('git commit -a -m "Initial commit by cookiecutter"')
     subprocess_cmd('git remote set-url origin git@github.com:' + "{{cookiecutter.git_user}}"  + '/' + repo_name_fixed + '.git')
 
