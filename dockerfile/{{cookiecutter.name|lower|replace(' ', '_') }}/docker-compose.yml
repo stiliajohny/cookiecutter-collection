@@ -1,0 +1,18 @@
+version: '3.2'
+
+services:
+  {{cookiecutter.dockercompose_service_name}}:
+    build:
+      context: ./
+      args:
+        VARIABLE: "VALUE"
+    volumes:
+      - ./:/app
+    ports:
+      - 8888:8888
+    networks:
+      - main_network
+
+networks:
+  main_network:
+    driver: host

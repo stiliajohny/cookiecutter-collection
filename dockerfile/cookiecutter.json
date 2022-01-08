@@ -1,0 +1,14 @@
+{
+    "name": "",
+    "description": "role description",
+    "maintainer_name": "John Stilia",
+    "maintainer_email": "stilia.johny@gmail.com",
+    "docker_image_name": "alpine",
+    "docker_image_tag": "latest",
+    "version": "0.0.1a",
+    "maintainer": "John Stilia",
+    "docker_user": "devuser",
+    "entrypoint": "",
+    "dockercompose_service_name": "",
+    "license": ""
+}
