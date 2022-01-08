@@ -68,7 +68,7 @@
 
 ### To initialize the role with cookiecuter
 
-`$ cookiecutter gh:stiliajohny/cookiecutter-collection --directory="docker"`
+`$ cookiecutter gh:stiliajohny/cookiecutter-collection --directory="dockerfile"`
 
 ---
 
