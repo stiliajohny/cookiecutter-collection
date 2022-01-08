@@ -45,8 +45,8 @@ Check in the individual folders to use the cookiecutter of your choice
 
 - <a href="./ansible">./ansible</a> - Enjoy an enhanced cookiecutter for ansible-molecule.
 - <a href="./github-repo">./github-repo</a> - Quick and easy way to bring up a repo with consistant documentation.
-- <a href="./terraform">./github-repo</a> - Quick and easy way to bring up a repo with consistant documentation.
-- <a href="./docker">./github-repo</a> - Quick and easy way to bring up a repo with consistant documentation.
+- <a href="./terraform">./terraform</a> - Quick and easy way to bring up a repo with consistant documentation.
+- <a href="./dockerfile">./dockerfile</a> - Quick and easy way to bring up a repo with consistant documentation.
 
 ---
 
