@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/stiliajohny/cookiecutter-collection">
-    <img src="https://github.com/stiliajohny/cookiecutter-collection/raw/master/.assets/docker.png" alt="Logo" width="80" height="80">
+    <img src="https://github.com/stiliajohny/cookiecutter-collection/raw/main/.assets/docker.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Dockerfile Cookiecutter Template</h3>
