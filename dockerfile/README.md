@@ -8,7 +8,7 @@
   <h3 align="center">Dockerfile Cookiecutter Template</h3>
 
   <p align="center">
-    This is a template to be used with cookiecuter to create complete docker project including Dockerfile, Docker Compose, and .dockerignore.2
+    This is a template to be used with cookiecuter to create complete docker project including Dockerfile, Docker Compose, and .dockerignore.
     <br />
     <a href="https://github.com/stiliajohny/cookiecutter-collection/raw/master/README.md"><strong>Explore the docs »</strong></a>
     <br />
