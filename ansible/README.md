@@ -58,12 +58,14 @@
 ### Built With
 
 - Cookiecutter
--  Molecule
--  Python
--  YAML
--  Ansible
--  JSON
--  Docker
+- Molecule
+- Python
+- YAML
+- Ansible
+- JSON
+- Docker
+- Ansible-lint
+- Yamllint
 
 ---
 
@@ -73,22 +75,28 @@
 
 ### Prerequisites
 
--  cookiecutter
--  pre-commit
--   molecule-vagrant
--   molecule-docker
--  Vagrant
--  Docker
+- Ansible
+- ansible-lint
+- yamllint
+- cookiecutter
+- pre-commit
+- molecule-vagrant
+- molecule-docker
+- vagrant
+- docker
 
 ### Installation
 
--  cookiecutter ==> `$ pip3 install cookiecutter`
--  pre-commit ==> `$ pip3 install pre-commit`
--  molecule ==> `$ pip3 install  molecule`
--   molecule-vagrant ==> `$ pip3 install  molecule-vagrant python-vagrant`
--   molecule-docker ==> `$ pip3 install  molecule-docker`
--  Vagrant ==> [Official Documentation](https://www.vagrantup.com/docs/installation)
--  Docker ==> [Official Documentation](https://docs.docker.com/get-docker/)
+- Ansible ==> `$ pip3 install ansible`
+- ansible-lint ==> `$ pip3 install ansible-lint`
+- yamllint ==> `$ pip3 install yamllint`
+- cookiecutter ==> `$ pip3 install cookiecutter`
+- pre-commit ==> `$ pip3 install pre-commit`
+- molecule ==> `$ pip3 install  molecule`
+- molecule-vagrant ==> `$ pip3 install  molecule-vagrant python-vagrant`
+- molecule-docker ==> `$ pip3 install  molecule-docker`
+- Vagrant ==> [Official Documentation](https://www.vagrantup.com/docs/installation)
+- Docker ==> [Official Documentation](https://docs.docker.com/get-docker/)
 
 ---
 
