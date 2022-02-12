@@ -87,9 +87,9 @@
 
 ### Installation
 
-- Ansible ==> `$ pip3 install ansible`
+- ansible ==> `$ pip3 install ansible`
 - ansible-lint ==> `$ pip3 install ansible-lint`
-- yamllint ==> `$ pip3 install yamllint`
+- yamllint ==> `$ pip3 install cookiecutter`
 - cookiecutter ==> `$ pip3 install cookiecutter`
 - pre-commit ==> `$ pip3 install pre-commit`
 - molecule ==> `$ pip3 install  molecule`
