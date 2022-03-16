@@ -128,7 +128,7 @@ const API_KEY = 'ENTER YOUR API';
 
 ## Usage
 
-See the [USAGE.md](https://github.com/{{ cookiecutter.github*user }}/{{cookiecutter.tf_module_name|lower|replace(' ', '*') }}/raw/master/USAGE.md) for the `terraform-docs` output
+See the [USAGE.md](https://github.com/{{ cookiecutter.github_user }}/{{cookiecutter.tf_module_name|lower|replace(' ', '_') }}/raw/master/USAGE.md) for the `terraform-docs` output
 
 <!--
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
@@ -142,7 +142,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 ## Roadmap
 
-See the [open issues](https://github.com/{{ cookiecutter.github*user }}/{{cookiecutter.tf_module_name|lower|replace(' ', '*') }}/raw/main/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/{{ cookiecutter.github_user }}/{{cookiecutter.tf_module_name|lower|replace(' ', '_') }}/raw/main/issues) for a list of proposed features (and known issues).
 
 ---
 
@@ -186,16 +186,16 @@ Distributed under the GPL-3.0 License. See `LICENSE` for more information.
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/{{ cookiecutter.github*user }}/{{cookiecutter.tf_module_name|lower|replace(' ', '*') }}.svg?style=for-the-badge
-[contributors-url]: https://github.com/{{ cookiecutter.github*user }}/{{cookiecutter.tf_module_name|lower|replace(' ', '*') }}/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/{{ cookiecutter.github*user }}/{{cookiecutter.tf_module_name|lower|replace(' ', '*') }}.svg?style=for-the-badge
-[forks-url]: https://github.com/{{ cookiecutter.github*user }}/{{cookiecutter.tf_module_name|lower|replace(' ', '*') }}/network/members
-[stars-shield]: https://img.shields.io/github/stars/{{ cookiecutter.github*user }}/{{cookiecutter.tf_module_name|lower|replace(' ', '*') }}.svg?style=for-the-badge
-[stars-url]: https://github.com/{{ cookiecutter.github*user }}/{{cookiecutter.tf_module_name|lower|replace(' ', '*') }}/stargazers
-[issues-shield]: https://img.shields.io/github/issues/{{ cookiecutter.github*user }}/{{cookiecutter.tf_module_name|lower|replace(' ', '*') }}.svg?style=for-the-badge
-[issues-url]: https://github.com/{{ cookiecutter.github*user }}/{{cookiecutter.tf_module_name|lower|replace(' ', '*') }}/issues
-[license-shield]: https://img.shields.io/github/license/{{ cookiecutter.github*user }}/{{cookiecutter.tf_module_name|lower|replace(' ', '*') }}?style=for-the-badge
-[license-url]: https://github.com/{{ cookiecutter.github*user }}/{{cookiecutter.tf_module_name|lower|replace(' ', '*') }}/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/{{ cookiecutter.github_user }}/{{cookiecutter.tf_module_name|lower|replace(' ', '_') }}.svg?style=for-the-badge
+[contributors-url]: https://github.com/{{ cookiecutter.github_user }}/{{cookiecutter.tf_module_name|lower|replace(' ', '_') }}/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/{{ cookiecutter.github_user }}/{{cookiecutter.tf_module_name|lower|replace(' ', '_') }}.svg?style=for-the-badge
+[forks-url]: https://github.com/{{ cookiecutter.github_user }}/{{cookiecutter.tf_module_name|lower|replace(' ', '_') }}/network/members
+[stars-shield]: https://img.shields.io/github/stars/{{ cookiecutter.github_user }}/{{cookiecutter.tf_module_name|lower|replace(' ', '_') }}.svg?style=for-the-badge
+[stars-url]: https://github.com/{{ cookiecutter.github_user }}/{{cookiecutter.tf_module_name|lower|replace(' ', '_') }}/stargazers
+[issues-shield]: https://img.shields.io/github/issues/{{ cookiecutter.github_user }}/{{cookiecutter.tf_module_name|lower|replace(' ', '_') }}.svg?style=for-the-badge
+[issues-url]: https://github.com/{{ cookiecutter.github_user }}/{{cookiecutter.tf_module_name|lower|replace(' ', '_') }}/issues
+[license-shield]: https://img.shields.io/github/license/{{ cookiecutter.github_user }}/{{cookiecutter.tf_module_name|lower|replace(' ', '_') }}?style=for-the-badge
+[license-url]: https://github.com/{{ cookiecutter.github_user }}/{{cookiecutter.tf_module_name|lower|replace(' ', '_') }}/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/johnstilia/
 [product-screenshot]: .assets/screenshot.png
