@@ -1,10 +1,14 @@
 {
-    "tf_module_name": "example-module",
-    "author": "John Stilia",
+    "tf_module_name": "example_module",
+    "author": "Your name",
+    "author_email": "Yours or the organisation's email",
+    "github_user": "user or organisation namespace in GitHub",
     "description": "role description",
-    "minimum_terraform_version" : [ "0.12.29", "1.1.0"],
+    "minimum_terraform_version" : "",
     "aws_provider_region": "us-west-2",
     "aws_provider_version" : "~> 3.34",
     "environment":["dev","stage","prod","test","demo","qa","uat","production","development", "staging", "production-test",  "production-qa", "production-demo", "production-uat", "production-stage", "production-dev"],
-    "module location":""
+    "_copy_without_render": [
+        ".github/workflows"
+    ]
 }
