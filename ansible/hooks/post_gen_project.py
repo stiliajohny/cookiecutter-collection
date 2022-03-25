@@ -99,9 +99,7 @@ def configure_role():
 
     print("Path to your new role in the local machine is " + os.getcwd())
     print("\n\n")
-    print("Shall I move you to the role's directory? (y/n)")
-    if read_user_yes_no(default_value=u'yes'):
-        subprocess_cmd('cd' + os.getcwd() )
+
 
 
 
