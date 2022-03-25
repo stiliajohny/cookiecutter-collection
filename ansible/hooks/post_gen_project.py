@@ -91,13 +91,18 @@ def configure_role():
 
     if '{{ cookiecutter.add_Gitlab_CI_config }}' == 'n':
         os.remove('.gitlab-ci.yml')
-         
-         
+
+
     subprocess_cmd('git init')
     subprocess_cmd('git add .')
-    subprocess_cmd('git commit -a -m "Initial commit by cookiecutter"')
+    subprocess_cmd('git commit -a -m "Initial commit by cookiecutter" -m "This was initated by the cookicutter template at github.com:stiliajohny/cookiecutter-collection/ansible. "  --no-gpg-sign ')
 
     print("Path to your new role in the local machine is " + os.getcwd())
+    print("\n\n")
+    print("Shall I move you to the role's directory? (y/n)")
+    if read_user_yes_no(default_value=u'yes'):
+        subprocess_cmd('cd' + os.getcwd() )
+
 
 
 if __name__ == '__main__':
