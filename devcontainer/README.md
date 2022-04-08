@@ -29,7 +29,6 @@
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Usage](#usage)
-  - [To initialize the role with cookiecuter](#to-initialize-the-role-with-cookiecuter)
 - [What this template provides?](#what-this-template-provides)
 - [Roadmap](#roadmap)
 - [Contributing](#contributing)
@@ -66,8 +65,6 @@
 - VSCode ==> `$ sudo apt-get install vscode`
 
 ## Usage
-
-### To initialize the role with cookiecuter
 
 - `$ cookiecutter gh:stiliajohny/cookiecutter-collection --directory="devcontainer"`
 - Open the VS Code folder and Reopen in Container
