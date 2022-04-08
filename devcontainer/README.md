@@ -63,7 +63,7 @@
 
 - cookiecutter ==> `$ pip3 install cookiecutter`
 - Docker ==> `$ sudo apt-get install docker.io`
-- VSCode ==> $ sudo apt-get install vscode
+- VSCode ==> `$ sudo apt-get install vscode`
 
 ## Usage
 
