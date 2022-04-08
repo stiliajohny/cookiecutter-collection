@@ -1,10 +1,4 @@
-> [![Contributors][contributors-shield]][contributors-url]
-> [![Forks][forks-shield]][forks-url]
-> [![Stargazers][stars-shield]][stars-url]
-> [![Issues][issues-shield]][issues-url]
-> [![GPL3 License][license-shield]][license-url]
-> [![LinkedIn][linkedin-shield]][linkedin-url]
-> [![Ask Me Anything][ask-me-anything]][personal-page]
+> [![Contributors][contributors-shield]][contributors-url] > [![Forks][forks-shield]][forks-url] > [![Stargazers][stars-shield]][stars-url] > [![Issues][issues-shield]][issues-url] > [![GPL3 License][license-shield]][license-url] > [![LinkedIn][linkedin-shield]][linkedin-url] > [![Ask Me Anything][ask-me-anything]][personal-page]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -30,7 +24,6 @@
 
 - [Table of Contents](#table-of-contents)
 - [About The Project](#about-the-project)
-- [- <a href="./devcontainer">./devcontainer</a> - Quick and easy way to create a vscode devcontainer](#--devcontainer---quick-and-easy-way-to-create-a-vscode-devcontainer)
 - [Roadmap](#roadmap)
 - [Contributing](#contributing)
 - [License](#license)
