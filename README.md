@@ -1,12 +1,10 @@
->[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![GPL3 License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-[![Ask Me Anything][ask-me-anything]][personal-page]
-
-
+> [![Contributors][contributors-shield]][contributors-url]
+> [![Forks][forks-shield]][forks-url]
+> [![Stargazers][stars-shield]][stars-url]
+> [![Issues][issues-shield]][issues-url]
+> [![GPL3 License][license-shield]][license-url]
+> [![LinkedIn][linkedin-shield]][linkedin-url]
+> [![Ask Me Anything][ask-me-anything]][personal-page]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -32,6 +30,7 @@
 
 - [Table of Contents](#table-of-contents)
 - [About The Project](#about-the-project)
+- [- <a href="./devcontainer">./devcontainer</a> - Quick and easy way to create a vscode devcontainer](#--devcontainer---quick-and-easy-way-to-create-a-vscode-devcontainer)
 - [Roadmap](#roadmap)
 - [Contributing](#contributing)
 - [License](#license)
@@ -41,12 +40,14 @@
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
+
 Check in the individual folders to use the cookiecutter of your choice
 
 - <a href="./ansible">./ansible</a> - Enjoy an enhanced cookiecutter for ansible-molecule.
 - <a href="./github-repo">./github-repo</a> - Quick and easy way to bring up a repo with consistant documentation.
 - <a href="./terraform">./terraform</a> - Quick and easy way to bring up a repo with consistant documentation.
 - <a href="./dockerfile">./dockerfile</a> - Quick and easy way to bring up a repo with consistant documentation.
+- <a href="./devcontainer">./devcontainer</a> - Quick and easy way to create a vscode devcontainer
 
 ---
 
@@ -55,7 +56,6 @@ Check in the individual folders to use the cookiecutter of your choice
 See the [open issues](https://github.com/stiliajohny/cookiecutter-collection/issues) for a list of proposed features (and known issues).
 
 ---
-
 
 ## Contributing
 
@@ -69,18 +69,16 @@ Contributions are what make the open source community such an amazing place to b
 
 ---
 
-
 ## License
 
 Distributed under the GPL-3.0 License. See `LICENSE` for more information.
-
 
 ## Contact
 
 John Stilia - [@john_stilia](https://twitter.com/john_stilia) - stilia.johny@gmail.com
 
-
 ---
+
 <!-- ACKNOWLEDGEMENTS -->
 
 ## Acknowledgements
@@ -108,4 +106,3 @@ John Stilia - [@john_stilia](https://twitter.com/john_stilia) - stilia.johny@gma
 [product-screenshot]: .assets/screenshot.png
 [ask-me-anything]: https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg?style=for-the-badge
 [personal-page]: https://github.com/stiliajohny
-
